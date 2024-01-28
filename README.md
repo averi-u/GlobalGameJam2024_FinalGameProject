@@ -7,4 +7,6 @@ Game Description: The customers are people in famous Chinese and American memes 
 
 Game Demonstration Link: https://www.bilibili.com/video/BV1YN4y1J7WV  
   
-<img width="700" alt="image" src="https://github.com/averi-u/GlobalGameJam2024-FinalGameProject/assets/73741014/d7ffc2dc-d369-4375-8460-f547696372a1">
+
+<img width="737" alt="image" src="https://github.com/averi-u/GlobalGameJam2024_FinalGameProject/assets/73741014/9568ae48-ee9c-4f4a-8cee-4d351c72a9c3">
+
