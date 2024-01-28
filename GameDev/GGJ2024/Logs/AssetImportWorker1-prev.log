@@ -1,0 +1,462 @@
+Unity Editor version:    2022.3.18f1 (d29bea25151d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.1.2 (Build 23B92)
+Darwin version:          23.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/zhizhenyu/code/GGameJam2024/GGJ2024/trunk/GGJ2024
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53654
+Successfully changed project path to: /Users/zhizhenyu/code/GGameJam2024/GGJ2024/trunk/GGJ2024
+/Users/zhizhenyu/code/GGameJam2024/GGJ2024/trunk/GGJ2024
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7960944320] Host "[IP] 192.168.0.110 [Port] 0 [Flags] 2 [Guid] 916606934 [EditorId] 916606934 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7960944320] Host "[IP] 192.168.0.110 [Port] 0 [Flags] 2 [Guid] 916606934 [EditorId] 916606934 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 23.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/zhizhenyu/code/GGameJam2024/GGJ2024/trunk/GGJ2024/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56817
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.015056 seconds.
+- Loaded All Assemblies, in  0.852 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.240 seconds
+Domain Reload Profiling: 1093ms
+	BeginReloadAssembly (460ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (456ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (240ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (187ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/zhizhenyu/code/GGameJam2024/GGJ2024/trunk/GGJ2024/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/zhizhenyu/code/GGameJam2024/GGJ2024/trunk/GGJ2024/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.990 seconds
+Refreshing native plugins compatible for Editor in 15.67 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.765 seconds
+Domain Reload Profiling: 1785ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (805ms)
+		LoadAssemblies (561ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (205ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (765ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (509ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.44 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.3 MB). Loaded Objects now: 3923.
+Memory consumption went from 150.0 MB to 148.7 MB.
+Total: 32.711709 ms (FindLiveObjects: 3.816625 ms CreateObjectMapping: 2.062625 ms MarkObjects: 17.752250 ms  DeleteObjects: 9.079042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1145018.637978 seconds.
+  path: Assets/Art/Chara/Chara00.png
+  artifactKey: Guid(9455f78a654075044924d3eb894adcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/Chara00.png using Guid(9455f78a654075044924d3eb894adcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffc08607ae68e5b2199eb21b49f2221') in 0.284523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 114.242719 seconds.
+  path: Assets/Art/Chara/Trump/02.png
+  artifactKey: Guid(80f4c9087f0dcfb4a893f6ee52e2aa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/Trump/02.png using Guid(80f4c9087f0dcfb4a893f6ee52e2aa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0909415d8571cda000b160fc1634ae19') in 0.622261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/Chara/Trump/03.png
+  artifactKey: Guid(bb4ca0b24675c4a489b32259c407b6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/Trump/03.png using Guid(bb4ca0b24675c4a489b32259c407b6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efdc550cc02459cefdb788357c7a30f') in 0.032611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Art/Chara/Trump/04.png
+  artifactKey: Guid(f92f5ea57ee3fa043b8e76fe1f04dde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/Trump/04.png using Guid(f92f5ea57ee3fa043b8e76fe1f04dde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f547881ccaffca74a0bf35fc6c6d4554') in 0.042433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Art/Chara/Trump/Trump.overrideController
+  artifactKey: Guid(4c4c4a047202c644ba65857b10efe946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/Trump/Trump.overrideController using Guid(4c4c4a047202c644ba65857b10efe946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44e19a06ca2cb1d25c0edad370724e2') in 0.152369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.681247 seconds.
+  path: Assets/Art/Chara/大肠/02.png
+  artifactKey: Guid(b296d85f5eb6a9747a28dbc81132e440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/大肠/02.png using Guid(b296d85f5eb6a9747a28dbc81132e440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612b67e82aa6ca9d87370d29bfa83db0') in 0.089645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007923 seconds.
+  path: Assets/Art/Chara/大肠/06.png
+  artifactKey: Guid(b20d52c3209fe5f4eab0a1dfc170a480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/大肠/06.png using Guid(b20d52c3209fe5f4eab0a1dfc170a480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743b17438ee72da3ab753d72846facda') in 0.045959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Art/Chara/大肠/04.png
+  artifactKey: Guid(4af801d69393e164c8ef544baec3ca26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/大肠/04.png using Guid(4af801d69393e164c8ef544baec3ca26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402097cd904642a4cdfd23195525c2ec') in 0.015137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Art/Chara/大肠/05.png
+  artifactKey: Guid(a3f5c0d7e90b37f449c19de7c2fcb1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/大肠/05.png using Guid(a3f5c0d7e90b37f449c19de7c2fcb1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc3731def9ce3ed89a7d119be560964') in 0.011905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.370985 seconds.
+  path: Assets/Art/Chara/泰库拉/02.png
+  artifactKey: Guid(c2d8ace380006764fa6fb4f49c6f9a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/泰库拉/02.png using Guid(c2d8ace380006764fa6fb4f49c6f9a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7565513396c8e11dd43e7435ebcc9e02') in 0.178126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Art/Chara/泰库拉/03.png
+  artifactKey: Guid(1ebf889aa74e6904aa508760d80b8aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/泰库拉/03.png using Guid(1ebf889aa74e6904aa508760d80b8aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d5a3f8661f62d9ffe23b446e4a96fe') in 0.031494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.820342 seconds.
+  path: Assets/Art/Chara/蓝色妖姬/02.png
+  artifactKey: Guid(9cf7322a24b2eb04faed1f20f35421dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蓝色妖姬/02.png using Guid(9cf7322a24b2eb04faed1f20f35421dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e693ee15d746bedaba9caa8ce4057af') in 0.105599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001853 seconds.
+  path: Assets/Art/Chara/蓝色妖姬/04.png
+  artifactKey: Guid(4acc1a58958f587469f70cd29ac1ec0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蓝色妖姬/04.png using Guid(4acc1a58958f587469f70cd29ac1ec0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44f8818b68862b1ea2005bb03c517a4') in 0.009271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/Art/Chara/蓝色妖姬/蓝色妖姬.overrideController
+  artifactKey: Guid(bf22f0c7af6e0f34f9903a02390bf29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蓝色妖姬/蓝色妖姬.overrideController using Guid(bf22f0c7af6e0f34f9903a02390bf29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3cd7ae77805b1da9d89fcbc66b6892') in 0.004819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.885264 seconds.
+  path: Assets/Art/Chara/蔡徐坤/02.png
+  artifactKey: Guid(f6748261f5135c947b14b05447c69518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/02.png using Guid(f6748261f5135c947b14b05447c69518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28966d5b7d773bc2bfd69c079070943') in 0.078510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art/Chara/蔡徐坤/06.png
+  artifactKey: Guid(60fa3fe2d5146d24db5e0fdcc1288c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/06.png using Guid(60fa3fe2d5146d24db5e0fdcc1288c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528ac3c886001ed0ae97d8207064113f') in 0.007926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Art/Chara/蔡徐坤/15.png
+  artifactKey: Guid(5dcdbdcb49ad3e245a8ae0286b9a56de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/15.png using Guid(5dcdbdcb49ad3e245a8ae0286b9a56de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c42b8b361be56d01055d4b28cddfe92') in 0.008335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Art/Chara/蔡徐坤/08.png
+  artifactKey: Guid(83f271e9fe6284c4ca6e6f52f6755d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/08.png using Guid(83f271e9fe6284c4ca6e6f52f6755d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14e973c2bf0297be7d7c8a7c73535ce') in 0.009318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Art/Chara/蔡徐坤/25.png
+  artifactKey: Guid(1eb5601e8fc6b8d429232f6c22c48e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/25.png using Guid(1eb5601e8fc6b8d429232f6c22c48e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0add35631702c9a9887a91b2e897c4') in 0.005641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Art/Chara/蔡徐坤/30.png
+  artifactKey: Guid(26a607ddffafc774fad070c1a46871e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/30.png using Guid(26a607ddffafc774fad070c1a46871e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0247b516d03d728b77a664cbeb9fe2') in 0.010680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Art/Chara/蔡徐坤/34.png
+  artifactKey: Guid(1fb769d1abd2bfb44b4f6cef4d837089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/34.png using Guid(1fb769d1abd2bfb44b4f6cef4d837089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da64ee0c9c9be0f7776704b673b73258') in 0.013084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003756 seconds.
+  path: Assets/Art/Chara/蔡徐坤/09.png
+  artifactKey: Guid(8a9f0c54ce53b6f4a833f833460f6872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/09.png using Guid(8a9f0c54ce53b6f4a833f833460f6872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfa0375e988c5cc68601095d200bf2e') in 0.010272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Art/Chara/蔡徐坤/29.png
+  artifactKey: Guid(f53ce58775b1aaa41a8643d40320e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/29.png using Guid(f53ce58775b1aaa41a8643d40320e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2c0efe900131b68a9c3fbb8a2af9a8') in 0.011860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000673 seconds.
+  path: Assets/Art/Chara/蔡徐坤/17.png
+  artifactKey: Guid(17b5c41917558ae47b1830a11501fecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/17.png using Guid(17b5c41917558ae47b1830a11501fecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdcf5ea45036c6b460f6ab7884964f9') in 0.009421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024489 seconds.
+  path: Assets/Art/Chara/蔡徐坤/31.png
+  artifactKey: Guid(ff4515d8101c61740992a73b45efca87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/31.png using Guid(ff4515d8101c61740992a73b45efca87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529b710e62fc02cc40247960e55dcff7') in 0.007915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art/Chara/蔡徐坤/23.png
+  artifactKey: Guid(9a23518b54c14c049b8db31341ab67b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/23.png using Guid(9a23518b54c14c049b8db31341ab67b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8330f63a8e8e25b32f23202017d05dc') in 0.014774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Art/Chara/蔡徐坤/35.png
+  artifactKey: Guid(73c1b5a5e0985a04fa72177a84af830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/35.png using Guid(73c1b5a5e0985a04fa72177a84af830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd193391adf9149264e97214cd90b7d85') in 0.017894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002187 seconds.
+  path: Assets/Art/Chara/蔡徐坤/14.png
+  artifactKey: Guid(cac2709168382ca41ac4389d0d31aa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/14.png using Guid(cac2709168382ca41ac4389d0d31aa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6dcd9455af370db44a58c543a0d5eb') in 0.014272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007039 seconds.
+  path: Assets/Art/Chara/蔡徐坤/19.png
+  artifactKey: Guid(96d02c41af0813c44bb303741f914c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/19.png using Guid(96d02c41af0813c44bb303741f914c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d03808a28ac5d84bd1727110cc8098') in 0.013938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Art/Chara/蔡徐坤/28.png
+  artifactKey: Guid(86a07a6a50b15b34d94ac6d6511871a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/28.png using Guid(86a07a6a50b15b34d94ac6d6511871a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcf57289e8136f033d0fabdc280e166') in 0.006223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/Chara/蔡徐坤/37.png
+  artifactKey: Guid(65ecbc1601f3ca341890e50cb2140461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/37.png using Guid(65ecbc1601f3ca341890e50cb2140461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912e787cb7c05c5ab9bf85d716dfe404') in 0.008196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Art/Chara/蔡徐坤/24.png
+  artifactKey: Guid(d119349e15a3afd47902c1d3f05bae4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/24.png using Guid(d119349e15a3afd47902c1d3f05bae4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921151d12fc599f1f0560ada7c1ca697') in 0.010982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art/Chara/蔡徐坤/26.png
+  artifactKey: Guid(a3a14e3df04d3604bbfc02fc910af4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/26.png using Guid(a3a14e3df04d3604bbfc02fc910af4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92adb0bbfcfa2c27e6822b453666b33') in 0.007072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.029050 seconds.
+  path: Assets/Art/Chara/蔡徐坤/蔡徐坤.overrideController
+  artifactKey: Guid(d5348e083b2f74c4086aa0189de6ca57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Chara/蔡徐坤/蔡徐坤.overrideController using Guid(d5348e083b2f74c4086aa0189de6ca57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd160ddec11060c5439656189bb37206c') in 0.011945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
