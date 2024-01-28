@@ -1,7 +1,7 @@
 # GlobalGameJam2024-FinalGameProject
 Game name: Owner of a Meme Shop  
 Participating in Glabal Game Jam 2024 -- 2024 Theme: "Make me Laugh"  
-Team members: Haotian Ding (Programer), Averi Zhizhen Yu (Programer), shitabyrsw (Artist), Tom Zhicheng Yu (Programer), Sweet of Knocci (Designer).   
+Team members: Haotian Ding (Programmer), Averi Zhizhen Yu (Programmer), shitabyrsw (Artist), Tom Zhicheng Yu (Programmer), Sweet of Knocci (Designer).   
 
 Game Description: The customers are people in famous Chinese and American memes and are visiting your store. You need to give them what they favor (which are the objects that exist or used by them in memes). The "meme" people shop in a very fast pace; after they get what they want, they will perform their meme dances or say meme quotes with hilarious effect. And can you, as the owner of a meme shop, keep up to hand them your products? If so, join the game!
 
