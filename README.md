@@ -1,6 +1,6 @@
 # GlobalGameJam2024-FinalGameProject
 Game name: Owner of a Meme Shop  
-Participating in Glabal Game Jam 2024 -- 2024 Theme: "Make me Laugh"  
+Participating in Glabal Game Jam (GGJ) 2024 -- 2024 Theme: "Make me Laugh"  
 Team members: Haotian Ding (Programmer), Averi Zhizhen Yu (Programmer), shitabyrsw (Artist), Tom Zhicheng Yu (Programmer), Sweet of Knocci (Designer).   
 Team name: Little Riceballs 小汤圆
 
@@ -15,3 +15,5 @@ Play Game Download Instruction: download the folders and open GGJ2024.exe to sta
 <img width="737" alt="image" src="https://github.com/averi-u/GlobalGameJam2024_FinalGameProject/assets/73741014/9568ae48-ee9c-4f4a-8cee-4d351c72a9c3">
 
 Please do not plagiarize and use for proprietary reasons. Copyright belongs to our team. 
+
+GGJ Game Demonstration Link: https://globalgamejam.org/games/2024/guichuxiaomaipumemes-shop-3
